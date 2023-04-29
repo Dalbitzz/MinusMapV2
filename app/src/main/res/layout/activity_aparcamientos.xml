@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/map"
-    android:name="com.google.android.gms.maps.SupportMapfragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     tools:context=".AparcamientosActivity">
 
@@ -24,4 +24,20 @@
         map:uiRotateGestures="true"
         map:uiZoomControls="true"/>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:onClick="irAtras"
+        android:text="Atras"
+        android:textSize="25dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:textStyle="bold"
+        app:strokeColor="#673AB7"
+        android:textColor="#673AB7"
+        app:cornerRadius="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
