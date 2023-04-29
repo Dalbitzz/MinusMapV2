@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#3ad4cc"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Bienvenido"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnPiscinas"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:onClick="irPiscinas"
+        android:text="Piscinas"
+        android:textColor="#3ad4cc"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:strokeColor="#3ad4cc" />
+
+    <Button
+        android:id="@+id/btnHoteles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:onClick="irHoteles"
+        android:text="Hoteles"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#3ad4cc"
+        android:textStyle="bold"
+        android:textColor="#3ad4cc"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnReabilitacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text="Centros de Rehabilitación"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#3ad4cc"
+        android:textStyle="bold"
+        android:textColor="#3ad4cc"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnAparcamientos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:onClick="irAparcamientos"
+        android:text="Aparcamientos"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#3ad4cc"
+        android:textStyle="bold"
+        android:textColor="#3ad4cc"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text="Cerrar Sesion"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#673AB7"
+        android:textColor="#673AB7"
+        app:cornerRadius="20dp"/>
+
+</LinearLayout>

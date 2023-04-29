@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".PiscinasActivity">
+
+    <Button
+        android:id="@+id/btnCentroDeportivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="irCentroDeportivo"
+        android:text="Centro Deporivo De Ofra"
+        android:textSize="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#3ad4cc"
+        android:textStyle="bold"
+        android:textColor="#3ad4cc"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnPiscinasNaturales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="irPiscinasNaturales"
+        android:text="Piscinas Naturales Bajamar"
+        android:textSize="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#3ad4cc"
+        android:textStyle="bold"
+        android:textColor="#3ad4cc"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnCiudadDeportiva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="irCiudadDeportiva"
+        android:text="Ciudad Deportiva de Guia"
+        android:textSize="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor="#3ad4cc"
+        android:textStyle="bold"
+        android:textColor="#3ad4cc"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="irAtras"
+        android:text="Atras"
+        android:textSize="20dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:textStyle="bold"
+        app:strokeColor="#673AB7"
+        android:textColor="#673AB7"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>
