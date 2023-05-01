@@ -57,13 +57,13 @@ public class HomeActivity extends AppCompatActivity {
         finish();
     }
     //METODO PARA IR A CENTROS DE REHABILITACION
-    public void irAparcamientos(View view) {
+    public void irCentroDeRehabilitacion(View view) {
         startActivity(new Intent(HomeActivity.this, CentrosRehabilitacionActivity.class));
         finish();
     }
-    /*//METODO PARA IR A APARCAMIENTOS
+    //METODO PARA IR A APARCAMIENTOS
     public void irAparcamientos(View view) {
         startActivity(new Intent(HomeActivity.this, AparcamientosActivity.class));
         finish();
-    }*/
+    }
 }
